@@ -11,8 +11,6 @@ const useMousePosition = () => {
       }),
     100
   );
-  // 1000 in 100 -> 1
-  debounce(fn, 100);
 
   useEffect(() => {
     window.addEventListener("mousemove", updateMousePosition);
